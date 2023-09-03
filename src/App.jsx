@@ -6,10 +6,12 @@ import Navigation from './components/Navigation/Navigation'
 function App() {
 
   return (
-   <div>
+   <div className='container_body'>
     <Navigation/>
+    <main className='main_container'>
     <ContactHeader/>
     <ContactForm/>
+    </main>
    </div>
   )
 }
